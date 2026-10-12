@@ -2,7 +2,7 @@
 - [ ] Arquivo do slide final
 - [ ] Arquivos markdown sobre o conteudo
 - [ ] Link das referencias
-- [ ] Descrição objetivo e tese 
+- [x] Descrição tese 
 - [ ] Atualizar a estrutura de arquivos do repositorio
 
 # Qualidade e revisão de código na era da IA
@@ -17,11 +17,8 @@ O trabalho aborda o **Tema 3: Qualidade e Revisão de Código (Code Review)**.
 - Artur Dias Cousseau
 - Matheus Andreazza Pörsch
 
-## Objetivo
-...
-
 ## Tese
-...
+A revisão de código continua relevante como uma camada de garantia da qualidade, junto a outras. Testes, linters, análise estática e CI/CD automatizam verificações repetíveis; a revisão humana pode avaliar o contexto, a intenção da mudança e as decisões de projeto. À medida que a IA aumenta o volume de código a examinar, a atenção dos revisores pode se tornar um gargalo. Mudanças menores e checagens automáticas ajudam a direcionar essa atenção às questões que exigem julgamento.
 
 ## Perguntas norteadoras
 **Pergunta principal:** revisar código é relevante no contexto atual? Como a IA alterou o ecossistema de desenvolvimento de software?
@@ -29,7 +26,6 @@ O trabalho aborda o **Tema 3: Qualidade e Revisão de Código (Code Review)**.
 - Por que as equipes revisam o código umas das outras? O motivo declarado é o motivo real? 
 - Quais defesas um defeito precisa atravessar até chegar em produção — e a revisão é qual delas?
 - Existe limite para o quanto um humano consegue revisar com atenção? O que fazer quando o volume passa desse limite?
-
 
 ## Referências sugeridas pelo professor
 
