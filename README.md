@@ -45,11 +45,17 @@ BACCHELLI, A.; BIRD, C. **Expectations, Outcomes, and Challenges of Modern Code 
 - SOBRENOME, N. **Título.** Veículo, ano. [Link](url)
   *Usada para: (uma linha dizendo qual argumento ela sustenta).*
 
-- SOBRENOME, N. **Título.** Veículo, ano. [Link](url)
-  *Usada para: (uma linha dizendo qual argumento ela sustenta).*
+SYSTEMD. ci: Drop codeql workflow (PR #41277). GitHub, 2026. https://github.com/systemd/systemd/pull/41277
+Usada para: mostrar que uma camada mal calibrada gasta atenção (218 alertas do CodeQL, 3 correções úteis) e que a decisão de removê-la saiu da própria revisão.
 
-- SOBRENOME, N. **Título.** Veículo, ano. [Link](url)
-  *Usada para: (uma linha dizendo qual argumento ela sustenta).*
+MICROSOFT. Fix using followed by newline ignoring [no LineTerminator here] grammar restriction (PR #3869). GitHub, 2026. https://github.com/microsoft/typescript-go/pull/3869
+Usada para: mostrar que a IA corrigiu o defeito, mas foi o revisor humano quem identificou a causa real (erro de port), avaliando contexto e intenção.
+
+PICHAI, S. Alphabet Q3 2024 Earnings Call. Fortune, 2024. https://fortune.com/2024/10/30/googles-code-ai-sundar-pichai
+Usada para: o ponto de partida do aumento de código gerado por IA no Google (mais de 25% do código novo, em out/2024).
+
+PICHAI, S. Google CEO says 75% of company’s new code is AI-generated. Semafor, 2026. https://www.semafor.com/article/04/24/2026/google-ceo-says-75-of-companys-new-code-is-ai-generated
+Usada para: o ponto de chegada (75% do código novo gerado por IA e revisado por engenheiros, em abr/2026), sustentando que o volume a revisar aumentou.
 
 ## Estrutura do repositório
 ```
