@@ -1,4 +1,5 @@
-# 03 · Revisão na prática: IA e revisão humana em uma equipe pequena
+# 04 · Revisão na prática: IA e revisão humana em uma equipe pequena
+
 ## 1. Contexto: a equipe
 
 Este é um relato da equipe em que trabalho, uma equipe pequena de desenvolvimento.
@@ -41,7 +42,7 @@ Na prática, nossa esteira tem **duas camadas**: a verificação da IA, que o pr
 
 Quando havia estagiário, muitas atividades voltavam para mim. Um dos principais motivos: como ele estava começando, ainda não conhecia bem o produto, e devolvia atividades apontando problemas que não faziam sentido.
 
-Hoje isso não acontece. Na minha percepção, a IA aponta erros que eu não via e lida melhor com as regras do produto do que o estagiário em início de carreira. É uma observação pessoal, não uma medição (ver [Limitações](#5-limitações)).
+Hoje isso não acontece. Na minha percepção, a IA aponta erros que eu não via e lida melhor com as regras do produto do que o estagiário em início de carreira. É uma observação pessoal, não uma medição.
 
 ### 3.2 O revisor humano fica com o entendimento
 

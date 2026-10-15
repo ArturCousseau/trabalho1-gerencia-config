@@ -2,15 +2,15 @@
 
 ## 1. O que é code review moderno
 
-Em um code review moderno, antes de uma mudança ser realizada, outra pessoa do time de desenvolvimento lê o que foi alterado e comenta, e a partir disso aprova ou pede as alterações. A code review costuma ser vista como  como uma **camada de segurança contra bugs**. A pergunta desta parte é se isso se confirma na prática.
+Em um code review moderno, quando uma mudança é realizada, outra pessoa do time de desenvolvimento lê o que foi alterado e comenta, e a partir disso aprova ou pede as alterações. um code review costuma ser vista como uma **camada de segurança contra bugs**. A pergunta desta parte é se isso se confirma na prática.
 
 ---
 
 ## 2. O motivo declarado: encontrar defeitos
 
-Bacchelli e Bird (2013), pesquisadores da Universidade de Lugano e da Microsoft Research, estudaram como funcionava a revisão de código em times da Microsoft. Eles observaram 17 desenvolvedores, analisarem 570 comentários de revisão e aplicaram questionários a 165 gerentes e 873 programadores.
+Bacchelli e Bird (2013), pesquisadores da Universidade de Lugano e da Microsoft Research, estudaram como funcionava a revisão de código em times da Microsoft. Eles observaram 17 desenvolvedores, analisaram 570 comentários de revisão e aplicaram questionários a 165 gerentes e 873 programadores.
 
-Quando foram perguntadas por que fazem o code review, a principal resposta foi encontrar defeitos:
+Quando foram perguntados por que fazem o code review, a principal resposta foi encontrar defeitos:
 
 | Grupo         | Encontrar defeitos como motivação                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------- |

@@ -116,7 +116,7 @@ A precedência de `&&` sobre `||` é a mesma em TypeScript e em Go. O original t
 
 ## 4. O gargalo virou a verificação
 
-Se a revisão humana fica com o julgamento, o volume de código que chega até ela passa a importar.
+Se a revisão humana fica com o julgamento, importa quem escreve o código que chega até ela.
 
 **Mais código gerado por IA.** Segundo declarações do CEO do Google, Sundar Pichai, a parte do código novo da empresa gerada por IA e depois revisada por engenheiros passou de:
 
@@ -131,7 +131,7 @@ Se a revisão humana fica com o julgamento, o volume de código que chega até e
 
 O mesmo relatório registra que ninguém na sala conseguiu citar dados sobre quantos defeitos a revisão manual realmente encontra, e recomenda medir isso em vez de tratar a revisão como garantia automática de qualidade.
 
-**A pergunta que fica:** se gerar código ficou barato e cada mudança ainda precisa de alguém que entenda o contexto e a intenção, **quanto dessa atenção o humano aguenta?** 
+**A pergunta que fica:** se gerar código ficou barato e cada mudança ainda precisa de alguém que entenda o contexto e a intenção, **E quando a atenção de quem escreve e verifica se esgota** 
 
 ---
 

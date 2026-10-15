@@ -67,6 +67,7 @@ BACCHELLI, A.; BIRD, C. **Expectations, Outcomes, and Challenges of Modern Code 
 │   └── apresentacao-final.pdf
 ├── conteudo/
 │   ├── 01-por-que-revisamos.md
-│   ├── 02-camdas-de-defesa.md
-│   └── 03-revisao-na-pratica.md
+│   ├── 02-camadas-de-defesa.md
+│   ├── 03-cansaco-no-desenvolvimento-de-software.md
+│   └── 04-revisao-na-pratica.md
 ```
