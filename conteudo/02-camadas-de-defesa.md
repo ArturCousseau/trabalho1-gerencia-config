@@ -1,11 +1,5 @@
 # 02 · Camadas de defesa: onde a revisão humana entra
 
-> **Pergunta norteadora:** quais defesas um defeito precisa atravessar até chegar em produção, e a revisão de código é qual delas?
-
-**Resposta curta:** a revisão humana é uma camada entre outras. As camadas automáticas respondem perguntas objetivas; a revisão humana fica com o que exige julgamento: o contexto, a intenção da mudança e as decisões de projeto. Com a IA gerando mais código, a atenção de quem revisa passa a ser o recurso escasso.
-
----
-
 ## 1. A esteira até a produção
 
 Em um fluxo baseado em pull requests (PRs), uma mudança passa por várias verificações antes do merge. Depois do merge, a entrega (CD) leva para produção o que foi aprovado.
@@ -62,7 +56,7 @@ Essa divisão conversa com o artigo-âncora. Bacchelli e Bird (2013) observaram 
 
 ## 2. Mais camadas ≠ mais proteção: o caso do systemd
 
-Adicionar camadas só ajuda se elas forem **bem calibradas**, ou seja, se o que a ferramenta encontra compensa o ruído que ela gera.
+Adicionar camadas só ajuda se elas forem **bem configuradas**, ou seja, se o que a ferramenta encontra compensa o ruído que ela gera.
 
 **O que é o systemd.** É o sistema de inicialização e gerenciador de serviços usado pela maioria das distribuições Linux, como Debian, Ubuntu, Fedora e Arch. Quando o computador liga, o systemd é o primeiro processo a rodar: ele inicia os outros serviços (rede, login, servidores) e os gerencia enquanto o sistema funciona. É um projeto de código aberto, escrito principalmente em C e mantido no GitHub, onde cada mudança passa por PR, CI e revisão dos mantenedores. Por ficar no centro do sistema operacional, um defeito nele afeta a máquina inteira, e por isso a esteira de verificações importa.
 
@@ -141,15 +135,6 @@ O mesmo relatório registra que ninguém na sala conseguiu citar dados sobre qua
 
 ---
 
-## 5. Limitações
-
-- **Casos individuais.** O systemd e o typescript-go são exemplos concretos, mas cada um é um caso só. Eles ilustram o argumento; não medem com que frequência isso acontece.
-- **Números do Google.** São declarações públicas do CEO, sem metodologia divulgada sobre como "código gerado por IA" é medido.
-- **Thoughtworks.** É o relato de um encontro de praticantes (formato *unconference*), não um estudo quantitativo. Serve como posicionamento do setor, não como dado.
-- **Revisão por IA.** No caso do typescript-go, a IA revisora não comentou nada. Isso não quer dizer que revisores de IA nunca encontram problemas; quer dizer que, neste caso, ela não questionou a explicação.
-
----
-
 ## Referências desta parte
 
 - BACCHELLI, A.; BIRD, C. Expectations, Outcomes, and Challenges of Modern Code Review. ICSE, 2013. https://doi.org/10.1109/ICSE.2013.6606617
@@ -159,5 +144,3 @@ O mesmo relatório registra que ninguém na sala conseguiu citar dados sobre qua
 - PICHAI, S. Alphabet Q3 2024 Earnings Call. Fortune, 2024. https://fortune.com/2024/10/30/googles-code-ai-sundar-pichai
 - PICHAI, S. Google CEO says 75% of company's new code is AI-generated. Semafor, 2026. https://www.semafor.com/article/04/24/2026/google-ceo-says-75-of-companys-new-code-is-ai-generated
 - THOUGHTWORKS. The Future of Software Engineering — Retreat Findings. Engelberg, 2026.
-
-Lista completa do grupo: [referencias.md](referencias.md).
