@@ -62,8 +62,6 @@ Os achados:
 - Revisores que **já conheciam os arquivos** (porque os haviam alterado ou revisado antes) fizeram comentários mais úteis.
 - Quanto **mais arquivos** uma mudança tinha, **menor** a proporção de comentários úteis.
 
-O primeiro ponto conversa com Beller et al.: uma parte considerável dos comentários não muda o código. Isso não significa que a conversa foi inútil, já que perguntas e esclarecimentos servem ao entendimento, como mostrou Bacchelli e Bird. O último ponto antecipa a [parte 03](03-limite-da-atencao.md): mudanças maiores pioram a revisão.
-
 ---
 
 ## 6. O que esses estudos mostram
@@ -74,8 +72,6 @@ O motivo declarado (encontrar defeitos) **não é** o principal resultado da rev
 - **melhorar** legibilidade, estrutura e arquitetura;
 - **espalhar conhecimento** pelo time;
 - **dividir a responsabilidade** pelo código, reduzindo a ideia de que cada parte "pertence" a quem a escreveu.
-
-Usar a revisão humana para procurar erros triviais e de formatação não é o melhor uso dela. Se esses erros podem ser pegos por outras camadas, a pergunta seguinte é: **quais são essas camadas, e onde a revisão humana entra entre elas?** A [parte 02](02-camadas-de-defesa.md) responde.
 
 ---
 

@@ -60,15 +60,11 @@ No nosso fluxo, **a mesma ferramenta escreve o código, escreve os testes e conf
 
 Camadas só protegem de verdade quando são **independentes**. Na [parte 02](02-camadas-de-defesa.md), o caso do typescript-go mostra algo parecido: a IA revisora não questionou a explicação do bug, e foi o humano, comparando com o código original, quem encontrou a causa real.
 
-No nosso caso, o chefe é o **único olhar humano e independente**. E ele recebe código que já parece revisado, o que traz de volta a pergunta da [parte 03](03-limite-da-atencao.md): quando tudo chega "pré-aprovado", a atenção humana se mantém ou cai?
-
 ---
 
 ## 4. Ligação com a pergunta do tema
 
 **Revisar código é relevante hoje?** Na nossa equipe, sim, mas o que se revisa mudou. A IA absorveu o trabalho mecânico (escrever testes, rodá-los, apontar erros óbvios), e ao humano sobraram o contexto, a intenção e a responsabilidade pela aprovação. Como a IA concentra várias camadas na mesma ferramenta, a revisão humana passou a ser a única verificação independente do processo.
-
-A conclusão completa do grupo está em [05-conclusao.md](05-conclusao.md).
 
 ---
 

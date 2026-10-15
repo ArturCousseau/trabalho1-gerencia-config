@@ -131,7 +131,7 @@ Se a revisão humana fica com o julgamento, o volume de código que chega até e
 
 O mesmo relatório registra que ninguém na sala conseguiu citar dados sobre quantos defeitos a revisão manual realmente encontra, e recomenda medir isso em vez de tratar a revisão como garantia automática de qualidade.
 
-**A pergunta que fica:** se gerar código ficou barato e cada mudança ainda precisa de alguém que entenda o contexto e a intenção, **quanto dessa atenção o humano aguenta?** A [parte 03](03-limite-da-atencao.md) responde.
+**A pergunta que fica:** se gerar código ficou barato e cada mudança ainda precisa de alguém que entenda o contexto e a intenção, **quanto dessa atenção o humano aguenta?** 
 
 ---
 
